@@ -10,6 +10,7 @@
 * **`onSwipeNext`** _(Function)_ - Callback when calendar is swiped to next week/days
 * **`onSwipePrev`** _(Function)_ - Callback when calendar is swiped to previous week/days
 * **`locale`** _(String)_ - locale for the header, there's a `addLocale` function to add cusomized locale. Default is `en`.
+* **`renderEvent`** _(Function)_ - Callback to custom render event (event,style).
 ## Event Object
 ```
 {
